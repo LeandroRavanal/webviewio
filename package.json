@@ -1,0 +1,30 @@
+{
+  "name": "io.github.lr.webviewio",
+  "displayName": "WebViewIO",
+  "version": "1.0.0",
+  "description": "Interaction example between an application and a web page using inappbrowser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "8.0.0",
+    "cordova-browser": "6.0.0",
+    "cordova-plugin-inappbrowser": "git+https://github.com/apache/cordova-plugin-inappbrowser.git"
+  },
+  "devDependencies": {},
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-inappbrowser": {}
+    },
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  }
+}
